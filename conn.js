@@ -5,6 +5,7 @@ const config = {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 };
+//conectamos a mongo
 mongoose.connect(db_path, config, (error) => {
   if (!error) {
     console.log("Successful connection");
